@@ -1,0 +1,8 @@
+The pretrained weights are too large to put on GitHub...
+
+They must be downloaded...
+
+
+
+$ cd weights/
+$ bash download_weights.sh
