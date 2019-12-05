@@ -10,6 +10,8 @@ Matt Wells - mwells21@uncc.edu
 Priyaank Chhadwa - pchhadwa@uncc.edu  
 Vinith Kantamneni - vkantamn@uncc.edu  
 
+![Presentation Day](./GoodRoadsPresentationDay.jpg)
+
 ## The Project
 Our group was tasked by Good Roads LLC to train and compare deep learning models for detecting U.S. Road Signs.
 
