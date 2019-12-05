@@ -15,7 +15,7 @@ Our group was tasked by Good Roads LLC to train and compare deep learning models
 
 ### Dataset
 A subset of the [LISA Dataset](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) was used for training and validation.  
-The subset contained grayscale only images that included at least one of the following signs:
+Our [data subset](https://drive.google.com/file/d/14sCftCgNk5H2tZlq7EwVYjiEPY6AfTVC/view?usp=sharing) contained grayscale only images that included at least one of the following signs:
 * Stop
 * Pedestrian Crossing
 * Traffic Light Ahead
