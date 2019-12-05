@@ -27,8 +27,10 @@
 
 #### Custom model
 Run the commands below to create a custom model definition, replacing `<num-classes>` with the number of classes in your dataset.
-	$ cd config/                                # Navigate to config dir
-	$ bash create_custom_model.sh <num-classes> # Will create custom model 'yolov3-custom.cfg'
+```
+$ cd config/                                # Navigate to config dir
+$ bash create_custom_model.sh <num-classes> # Will create custom model 'yolov3-custom.cfg'
+```
 
 #### Classes
 Add class names to `data/custom/classes.names`. This file should have one row per class name.
@@ -44,6 +46,8 @@ In `data/custom/train.txt` and `data/custom/valid.txt`, add paths to images that
 
 #### Train
 To train on the custom dataset run:
-	$ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data
+```
+$ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data
+```
 
 Add `--pretrained_weights weights/darknet53.conv.74` to train using a backend pretrained on ImageNet.
